@@ -1,6 +1,6 @@
 import type { Product } from './types'
 
-/** Przykladowe produkty (dane mockowe; 7 pozycji jak w projekcie Figma, 2 strony po 5). */
+/** 5 przykladowych produktow (dane mockowe z projektu Figma). */
 export const MOCK_PRODUCTS: Product[] = [
   {
     id: 'p-1',
@@ -91,41 +91,5 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: null,
     minCartQty: 1,
     maxCartQty: 10,
-  },
-  {
-    id: 'p-6',
-    name: 'LG OLED evo C4 55"',
-    sku: 'LGOLED55C4',
-    description: '',
-    manufacturer: 'lg',
-    category: 'rtv',
-    features: ['wifi', 'bluetooth'],
-    netPrice: 3657.72,
-    grossPrice: 4499,
-    vatRate: 23,
-    currency: 'PLN',
-    isAvailable: true,
-    isLimited: true,
-    stock: 12,
-    minCartQty: 1,
-    maxCartQty: 2,
-  },
-  {
-    id: 'p-7',
-    name: 'Lenovo ThinkPad X1 Carbon Gen 12',
-    sku: 'LNTPX1G12',
-    description: '',
-    manufacturer: 'lenovo',
-    category: 'komputery',
-    features: ['wifi', 'bluetooth', 'usb-c', 'premium'],
-    netPrice: 6747.15,
-    grossPrice: 8299,
-    vatRate: 23,
-    currency: 'PLN',
-    isAvailable: true,
-    isLimited: false,
-    stock: null,
-    minCartQty: 1,
-    maxCartQty: 5,
   },
 ]
