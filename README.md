@@ -29,5 +29,5 @@ src/
 
 ## Uwagi
 
-- Dane produktów są tylko w pamięci; odświeżenie przywraca 5 produktów startowych.
+- Dane produktów są tylko w pamięci; odświeżenie przywraca 7 produktów startowych.
 - Etykieta pola opisu w Figmie ma treść "Nazwa produktu"; zgodnie ze specyfikacją użyto "Opis".
