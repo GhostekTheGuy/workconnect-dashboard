@@ -30,4 +30,5 @@ src/
 ## Uwagi
 
 - Dane produktów są tylko w pamięci; odświeżenie przywraca 5 produktów startowych.
+- Po zapisaniu produktu widok zostaje na bieżącej stronie, zgodnie z ekranem "Toast" w Figmie. Przy 5 produktach na stronę nowy produkt trafia na stronę 2, więc widać go po przejściu paginacją.
 - Etykieta pola opisu w Figmie ma treść "Nazwa produktu"; zgodnie ze specyfikacją użyto "Opis".
